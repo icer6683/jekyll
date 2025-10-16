@@ -81,12 +81,10 @@ a {
   text-decoration: none;
   border-bottom: 1px solid $color-border;
   color: $color-primary;
-
   &:hover {
     color: black !important;
     background: #fffaf1;
   }
-
   &:after {
     position: relative;
     top: -0.5em;
@@ -94,7 +92,6 @@ a {
     content: "↗";
     color: #aaaaaa;
   }
-
   &.internal-link:after,
   &.footnote:after,
   &.reversefootnote:after {
@@ -109,12 +106,6 @@ a {
 
 nav {
   margin: 1em 0 3em;
-}
-
-.nav-right {
-  display: flex;
-  gap: 1.5rem;
-  align-items: center;
 }
 
 #notes-entry-container {
