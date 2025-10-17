@@ -1,14 +1,16 @@
 title:               Andrew Lou
-contact_email:               andrew.lou [AT] yale.edu
-profile_pic:         "/assets/profile1.jpg"
+name: "Andrew Lou"
+email: "andrew.lou [AT] yale.edu"
+profile_pic: "/assets/profile1.jpg"
 
-twitter:             ""
-linkedin:            "https://www.linkedin.com/in/andrewlou6683"
-github:              "https://github.com/icer6683"
+twitter: ""
+linkedin: "https://www.linkedin.com/in/andrewlou6683"
+github: "https://github.com/icer6683"
 google_scholar: ""
 google_analystics_tracking_id: ''
 
 include:             ['_pages']
+exclude:             ['_includes/notes_graph.json']
 # You may need to change the base URL depending on your deploy configuration.
 baseurl:             ''
 

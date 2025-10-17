@@ -1,0 +1,47 @@
+andrew.lou [AT] yale.edu
+<div class="three-columns">
+  <div class="column">
+    <h3>Column 1 Title</h3>
+    <p>Your text content for the first column goes here. This can be as long or short as you need.</p>
+  </div>
+  <div class="column">
+    <h3>Column 2 Title</h3>
+    <p>Your text content for the second column goes here. Each column will be equal width.</p>
+  </div>
+  <div class="column">
+    <h3>Column 3 Title</h3>
+    <p>Your text content for the third column goes here. The layout is responsive.</p>
+  </div>
+</div>
+
+<div class="footer">
+  <div class="row">
+    <div class="four columns">
+      {{ site.name }}
+    </div>
+    <div class="four columns">
+      {{ site.email }}
+    </div>
+    <div class="four columns">
+      <span onclick="window.open('{{ site.data.main_info.bsky }}')" style="cursor: pointer">
+        <i class="fa-brands fa-bluesky fa-sm" style="padding-top: 10px"></i>
+      </span>
+
+      <span onclick="window.open('{{ site.data.main_info.twitter }}')" style="cursor: pointer">
+        <i class="fa-brands fa-twitter"></i>
+      </span>
+
+      <span onclick="window.open('{{ site.data.main_info.linkedin }}')" style="cursor: pointer">
+        <i class="fa-brands fa-linkedin"></i>
+      </span>
+
+      <span onclick="window.open('{{ site.data.main_info.github }}')" style="cursor: pointer">
+        <i class="fa-brands fa-github"></i>
+      </span>
+
+      <span onclick="window.open('{{ site.data.main_info.google_scholar }}')" style="cursor: pointer">
+        <i class="ai ai-google-scholar" aria-hidden="true"></i>
+      </span>
+    </div>
+  </div>
+</div>

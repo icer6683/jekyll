@@ -1,0 +1,26 @@
+andrew.lou [AT] yale.edu
+<footer class="site-footer">
+  <div class="footer-content">
+    <div class="footer-name">{{ site.name }}</div>
+    <div class="footer-email">
+      <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+    </div>
+    <div class="footer-social">
+      {% if site.data.main_info.github %}
+      <a href="{{ site.data.main_info.github }}" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+        <i class="fa-brands fa-github"></i>
+      </a>
+      {% endif %}
+      {% if site.data.main_info.linkedin %}
+      <a href="{{ site.data.main_info.linkedin }}" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
+      {% endif %}
+      {% if site.data.main_info.twitter %}
+      <a href="{{ site.data.main_info.twitter }}" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+        <i class="fa-brands fa-twitter"></i>
+      </a>
+      {% endif %}
+    </div>
+  </div>
+</footer>

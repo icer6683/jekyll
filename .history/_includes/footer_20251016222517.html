@@ -1,0 +1,29 @@
+andrew.lou [AT] yale.edu
+<div class="three-columns">
+  <div class="column">
+    {{ site.title }}
+  </div>
+  <div class="column">
+    {{ site.email }}
+  </div>
+  <div class="column">
+    <span onclick="window.open('{{ site.data.main_info.bsky }}')" style="cursor: pointer">
+      <i class="fa-brands fa-bluesky fa-sm" style="padding-top: 10px"></i>
+    </span>
+
+    <span onclick="window.open('{{ site.data.main_info.twitter }}')" style="cursor: pointer">
+      <i class="fa-brands fa-twitter"></i>
+    </span>
+
+    <span onclick="window.open('{{ site.data.main_info.linkedin }}')" style="cursor: pointer">
+      <i class="fa-brands fa-linkedin"></i>
+    </span>
+
+    <span onclick="window.open('{{ site.data.main_info.github }}')" style="cursor: pointer">
+      <i class="fa-brands fa-github"></i>
+    </span>
+
+    <span onclick="window.open('{{ site.data.main_info.google_scholar }}')" style="cursor: pointer">
+      <i class="ai ai-google-scholar" aria-hidden="true"></i>
+    </span>
+  </div>
